@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { Content, Wrapper } from "./components/index";
+import { connect } from 'react-redux';
+import * as actions from './store/futurama/actions';
+import * as selectors from './store/futurama/reducer';
+import Carousel from './containers/Carousel';
+import List from './containers/List';
 
-function App() {
-  return (
+class App extends Component {
+
+  componentDidMount() {
+    this.props.dispatch(actions.fetchData());
+  }
+
+  render() {
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Carousel data={this.props.users}/>
+       <Wrapper>
+          <List data={this.props.users}/>
+          <Content data={this.props.currentUser}/>
+       </Wrapper>
     </div>
-  );
+    );
+  }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    users: selectors.getUsers(state),
+    currentUser: selectors.getCurrentUser(state)
+  };
+}
+
+export default connect(mapStateToProps)(App);
