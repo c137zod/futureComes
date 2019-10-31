@@ -65,7 +65,7 @@ export default function Person(person) {
       </CardActionArea>
       <CardActions>
       <Typography className={classes.address} variant="body2" color="textSecondary" component="p">
-          {value.address.street},{value.address.suite},{value.address.city}
+          {value.address.street}, {value.address.suite}, {value.address.city}
           </Typography>
       </CardActions>
     </Card>

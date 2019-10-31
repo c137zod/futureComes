@@ -7,10 +7,10 @@ export function fetchData() {
   return async(dispatch) => {
     try {
       const users = await Service.getDefaultUsers();
-      dispatch({ type: types.USERS_FETCHED, users });
+      dispatch({ type: types.USERS_FETCHED, users })
     } catch (error) {
       console.error(error);
-    }
+    } 
   };
 }
 

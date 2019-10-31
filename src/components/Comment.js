@@ -17,6 +17,7 @@ const useStyles = makeStyles(theme => ({
 function Comment(comments) {
  
   const classes = useStyles();
+  
   return (
       <div className={classes.wrapper}>
     {Object.keys(comments).map((value, index) => (

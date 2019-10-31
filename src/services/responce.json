@@ -1,0 +1,188 @@
+[{
+    "id": 1,
+    "name": "Philip J. Fry",
+    "username": "Fry",
+    "title": "Fry",
+    "imgPath": "https://www.shareicon.net/data/256x256/2016/01/06/234428_fry_256x256.png",
+    "link": "https://www.shareicon.net/data/256x256/2016/01/06/234428_fry_256x256.png",
+    "position": "Intergalactic delivery boy",
+    "address": {
+        "street": "87 South Drive",
+        "suite": "Valparaiso",
+        "city": "IN 46383"
+    },
+    "comments": [
+         {
+            "id": "0",
+            "comment": {
+                "header": "Fry say's:",
+                "text": "Crud!"
+            }
+        },
+        {
+            "id": "1",
+            "comment": {
+                "header": "Fry say's:",
+                "text": "Help! Police!"
+            }
+        },
+        {
+            "id": "3",
+            "comment": {
+                "header": "Fry say's:",
+                "text": "He's dead"
+            }
+        },
+        {
+            "id": "4",
+            "comment": {
+                "header": "Fry say's:",
+                "text": "I'm walking on sunshine"
+            }
+        }
+    ]
+  }, {
+    "id": 2,
+    "name": "Turanga Leela",
+    "username": "Leela",
+    "title": "Leela",
+    "imgPath": "https://www.shareicon.net/data/256x256/2016/01/06/234431_leela_256x256.png",
+    "link": "https://www.shareicon.net/data/256x256/2016/01/06/234431_leela_256x256.png",
+    "position": "Captain of the Planet Express",
+    "address": {
+        "street": "19 Hickory Lane",
+        "suite": "Northbrook",
+        "city": "IL 60062"
+    },
+    "comments": [
+         {
+            "id": "0",
+            "comment": {
+                "header": "Leela say's:",
+                "text": "Hi-yah!"
+            }
+        },
+        {
+            "id": "1",
+            "comment": {
+                "header": "Leela say's:",
+                "text": "Oh, Lord"
+            }
+        }
+    ]
+  }, {
+    "id": 3,
+    "name": "John A. Zoidberg",
+    "username": "Zoidberg",
+    "title": "Zoidberg",
+    "imgPath": "https://www.shareicon.net/data/256x256/2016/01/06/234419_zoidberg_256x256.png",
+    "link": "https://www.shareicon.net/data/256x256/2016/01/06/234419_zoidberg_256x256.png",
+    "position": "Planet Express (Physician)",
+    "address": {
+        "street": "335 High Ridge Ave",
+        "suite": "Eau Claire",
+        "city": "WI 54701"
+    },
+    "comments": [
+         {
+            "id": "0",
+            "comment": {
+                "header": "Zoidberg say's:",
+                "text": "Woop-woop-woop-woop!"
+            }
+        },
+        {
+            "id": "1",
+            "comment": {
+                "header": "Zoidberg say's:",
+                "text": "What an honor!"
+            }
+        },
+        {
+            "id": "2",
+            "comment": {
+                "header": "Zoidberg say's:",
+                "text": "Awwww..."
+            }
+        }
+    ]
+  }, {
+    "id": 4,
+    "name": "Bender Bending Rodríguez",
+    "username": "Bender",
+    "title": "Bender",
+    "imgPath": "https://www.shareicon.net/data/256x256/2016/01/06/234422_bender_256x256.png",
+    "link": "https://www.shareicon.net/data/256x256/2016/01/06/234422_bender_256x256.png",
+    "position": "Girder-bender, Wrestler, Soldier",
+    "address": {
+        "street": "365 Lakeshore St",
+        "suite": "Dracut",
+        "city": "MA 01826"
+    },
+    "comments": [
+         {
+            "id": "0",
+            "comment": {
+                "header": "Bender say's:",
+                "text": "Bite my shiny metal ass"
+            }
+        },
+        {
+            "id": "1",
+            "comment": {
+                "header": "Bender say's:",
+                "text": "Bender is great!"
+            }
+        },
+        {
+            "id": "2",
+            "comment": {
+                "header": "Bender say's:",
+                "text": "Let's go already!"
+            }
+        },
+        {
+            "id": "3",
+            "comment": {
+                "header": "Bender say's:",
+                "text": "Kill all humans"
+            }
+        }
+    ]
+  }, {
+    "id": 5,
+    "name": "Hubert J. Farnsworth",
+    "username": "Professor Farnsworth",
+    "title": "Professor Farnsworth",
+    "imgPath": "https://www.shareicon.net/data/256x256/2016/01/06/234424_farnsworth_256x256.png",
+    "link": "https://www.shareicon.net/data/256x256/2016/01/06/234424_farnsworth_256x256.png",
+    "position": "Scientist, owner and founder of the Planet Express delivery company",
+    "address": {
+        "street": "365 Lakeshore St",
+        "suite": "Dracut",
+        "city": "MA 01826"
+    },
+    "comments": [
+         {
+            "id": "0",
+            "comment": {
+                "header": "Hubert say's:",
+                "text": "Good news, everyone"
+            }
+        },
+        {
+            "id": "1",
+            "comment": {
+                "header": "Hubert say's:",
+                "text": "I am already in my pajamas"
+            }
+        },
+        {
+            "id": "2",
+            "comment": {
+                "header": "Hubert say's:",
+                "text": "Sweet Zombie Jesus!"
+            }
+        }
+    ]
+  }]

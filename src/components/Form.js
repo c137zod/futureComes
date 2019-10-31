@@ -94,7 +94,7 @@ class Form extends Component {
     this.setState({
         header: event.target.value
     });
-    const re = /^[a-z0-9_-]{4,80}$/;
+    const re = /^[a-zA-Z0-9_-]{4,80}$/;
 	if (re.test(this.state.header) ) {
         this.setState({
             headerBarStatus: "Header",
@@ -131,7 +131,7 @@ class Form extends Component {
   };
   handleChangeText = (event) => {
     this.setState({text: event.target.value});
-    const re = /^[a-z0-9_-]{1,128}$/;
+    const re = /^[a-zA-Z0-9_-]{1,128}$/;
 	if (re.test(this.state.text) ) {
         this.setState({
             textBarStatus: "Text",

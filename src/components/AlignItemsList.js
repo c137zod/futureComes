@@ -58,7 +58,7 @@ function AlignItemsList(props) {
     <List className={classes.root}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Turanga Leela" src={value.imgPath} />
+          <Avatar  src={value.imgPath} />
         </ListItemAvatar>
         <ListItemText
           primary={value.name}
